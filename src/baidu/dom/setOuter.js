@@ -28,7 +28,7 @@
  //(TODO，在getStyle里面做统一filter)
 baidu.dom.setOuter = function (element, styles) {
     function getNumericalStyle(name){
-        //global element;
+        /*global element;*/
         return parseFloat(baidu.getStyle(element, name)) || 0;
     }
     
